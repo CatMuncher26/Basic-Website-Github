@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
 
 
 #main-title{
@@ -22,28 +25,33 @@
 }
 
 .grid-item{
-    height: 75px;
+    height: 50px;
     background-color: rgb(211, 211, 211);
+    color: white;
     border: 10px solid rgb(96, 130, 182);
     column-gap: 5px;
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
+    bottom: auto;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .intro{
     display: grid;
     grid-template-columns: 40% 55%;
     column-gap: 10px; ;
-    font-family: 'Amatic SC', cursive
+    font-family: 'Quicksand', sans-serif;
 }
 
 .small-intro{
-    font-size: 24px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .brand-title{
     font-size: 100px;
     color: rgb(96, 130, 182);
+    font-family: 'Quicksand', sans-serif;
 }
 
 #hero-image{
