@@ -6,11 +6,17 @@
 
 body{
     font-family: 'Quicksand', sans-serif;
+    width: 70%;
+    margin:auto;
 }
 
 #main-title{
     text-align: center;
     font-size: 100px;
+}
+
+img{
+    width: 100%;
 }
 
 #hero-image{
@@ -54,10 +60,6 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
-#hero-image{
-    display: block;
-    width: 100%;}
-
 .block{
     display: block;
     width: 100%;
@@ -92,7 +94,9 @@ body{
 
 .strings{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 4fr 1fr;
+    gap:50px;
+
 }
 
 .string-item-title{
@@ -105,4 +109,6 @@ body{
     font-size: 32px;
     font-weight: 100;
     text-align: center;
+    margin-left: 175px;
+    margin-right: 175px;
 }
